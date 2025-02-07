@@ -12,21 +12,21 @@ export default function ViewStudent() {
   },[])
 
   return (
-    <div>
+    <div className="flex flex-col items-center">
       <BackButton />
-      <table>
+      <table className="bg-slate-100 rounded-md">
         <tbody>
-        <tr>
-          <th>Id</th>
-          <td>{student._id}</td>
+        <tr className="border border-black border-b-1">
+          <th className="p-2">Id</th>
+          <td className="p-2">{student._id}</td>
         </tr>
-        <tr>
-          <th>Name</th>
-          <td>{student.name}</td>
+        <tr className="border border-black border-b-1">
+          <th className="p-2">Name</th>
+          <td className="p-2">{student.name}</td>
         </tr>
-        <tr>
-          <th>Age</th>
-          <td>{student.age}</td>
+        <tr className="border border-black border-b-1">
+          <th className="p-2">Age</th>
+          <td className="p-2">{student.age}</td>
         </tr>
         </tbody>
       </table>

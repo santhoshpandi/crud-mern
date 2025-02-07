@@ -16,7 +16,7 @@ export default function DeleteStudent(){
   }
 
   return(
-    <div className="bg-[lavender] p-2 flex flex-col justify-center items-center md:w-[50%] w-full mx-auto">
+    <div className="bg-[lavender] p-2 flex flex-col justify-center items-center md:w-[50%] w-full mx-auto text-[20px]">
       Are you Sure want to Delete?
       <div className="p-2 flex gap-3">
       <button onClick={handleYes} className="bg-green-700 text-white px-2 py-1 rounded-sm" >Yes</button>

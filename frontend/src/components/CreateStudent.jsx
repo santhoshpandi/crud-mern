@@ -29,10 +29,10 @@ export default function AddStudent() {
       <BackButton />
       <form onSubmit={handleSubmit} className="flex flex-col justify-center items-center md:w-1/2 w-full gap-2 p-3 m-2 bg-blue-200">
         <label htmlFor="n">Name &nbsp;
-          <input onChange={handleChange} type="text" name="name" id="n" />
+          <input onChange={handleChange} type="text" name="name" id="n" required />
         </label>
         <label htmlFor="a">Age &nbsp;
-          <input onChange={handleChange} type="Number" name="age" id="a" />
+          <input onChange={handleChange} type="Number" name="age" id="a" required />
         </label>
         <button className="bg-blue-800 hover:bg-slate-900 text-white px-2 py-1 rounded-sm">Submit</button>
 

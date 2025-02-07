@@ -7,7 +7,7 @@ export default function BackButton() {
   }
 
   return (
-    <button onClick={handleBack} className="bg-violet-400 text-white  px-2 py-1 rounded-sm">
+    <button onClick={handleBack} className="bg-violet-400 text-white  px-2 py-1 rounded-sm m-5">
       Back
     </button>
   )
