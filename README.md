@@ -2,7 +2,8 @@
 
 ## Technologies Used:
 
-- React - Frontend
+- React, Tailwind - Frontend
+- Axios - API
 - NodeJs - Backend
 - ExpressJs - Backend
 - MongoDB - Database
