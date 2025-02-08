@@ -14,7 +14,7 @@ export default function ViewStudent() {
   return (
     <div className="flex flex-col items-center">
       <BackButton />
-      <table className="bg-slate-100 rounded-md">
+      <table className="bg-slate-100 rounded-md text-[20px]">
         <tbody>
         <tr className="border border-black border-b-1">
           <th className="p-2">Id</th>

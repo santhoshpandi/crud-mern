@@ -21,23 +21,23 @@ export default function Home() {
             <MdAssignmentAdd />
           </button>
         </div>
-        <table className='border border-black w-full flex flex-wrap justify-center flex-col items-center text-[25px] grow-[1]'>
+        <table className='w-full flex flex-wrap justify-center flex-col items-center text-[25px] grow-[1]'>
           <thead>
-            <tr className=' '>
-              <td className='p-2 border border-slate-700'>S.no</td>
-              <td className='p-2 border border-slate-700'>Name</td>
-              <td className='p-2 border border-slate-700'>Age</td>
-              <td className='p-2 border border-slate-700'>Actions</td>
+            <tr className='border border-slate-700 '>
+              <td className='p-2 border-x border-black'>S.no</td>
+              <td className='p-2 border-x border-black'>Name</td>
+              <td className='p-2 border-x border-black'>Age</td>
+              <td className='p-2 border-x border-black'>Actions</td>
             </tr>
           </thead>
           <tbody>
             {
               students.map((student, index) => (
-                <tr key={index} className=' '>
-                  <td className='p-2 border border-slate-700'>{index+1}</td>
-                  <td className='p-2 border border-slate-700'>{student.name}</td>
-                  <td className='p-2 border border-slate-700'>{student.age}</td>
-                  <td className='p-2 border border-slate-700 flex justify-evenly'>
+                <tr key={index} className='border border-slate-700 '>
+                  <td className='p-2 border-x border-black'>{index+1}</td>
+                  <td className='p-2 border-x border-black'>{student.name}</td>
+                  <td className='p-2 border-x border-black'>{student.age}</td>
+                  <td className='p-2 flex justify-evenly'>
                     <button onClick={() => navigate(`/view/${student._id}`)} className='p-1 text-violet-700'><FaEye /></button>
                     <button onClick={() => navigate(`/update/${student._id}`)} className='p-1 text-blue-800'><FaRegEdit /></button>
                     <button onClick={() => navigate(`/delete/${student._id}`)} className='p-1 text-red-500'><MdDelete /></button>

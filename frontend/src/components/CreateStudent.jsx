@@ -27,7 +27,7 @@ export default function AddStudent() {
   return (
     <div className="flex flex-col justify-center items-center">
       <BackButton />
-      <form onSubmit={handleSubmit} className="flex flex-col justify-center items-center md:w-1/2 w-full gap-2 p-3 m-2 bg-blue-200">
+      <form onSubmit={handleSubmit} className="flex flex-col justify-center items-center md:w-1/2 w-full gap-2 p-3 m-2 bg-blue-200 text-[20px]">
         <label htmlFor="n">Name &nbsp;
           <input onChange={handleChange} type="text" name="name" id="n" required />
         </label>
