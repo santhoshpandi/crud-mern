@@ -1,0 +1,25 @@
+{
+  "name": "crud",
+  "version": "1.0.0",
+  "description": "CRUD operations using MERN",
+  "scripts": {
+    "install-server": "cd backend && npm install",
+    "start-server": "cd backend && npm run dev",
+    "install-client": "cd frontend && npm install",
+    "build-client": "cd frontend && npm run build",
+    "start-client": "cd frontend && npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santhoshpandi/crud-mern.git"
+  },
+  "keywords": [
+    "mern","crud","react","node","express","mongodb"
+  ],
+  "author": "Santhosh Pandi K",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/santhoshpandi/crud-mern/issues"
+  },
+  "homepage": "https://github.com/santhoshpandi/crud-mern#readme"
+}
