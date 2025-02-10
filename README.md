@@ -22,6 +22,5 @@ npm run start-server
 
 3. Start the Client (Frontend)
 ```
-cd frontend
 npm run start-client
 ```
